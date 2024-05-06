@@ -4,10 +4,9 @@ let moviename;
 
 
 searchbtn.addEventListener("click",()=>{
-     moviename=inputsearch.value;
+    moviename=inputsearch.value;
      console.log(moviename);
      localStorage.setItem("moviename",moviename);
-
     window.location.href="newpage.html";
    
 })
