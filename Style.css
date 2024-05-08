@@ -4,6 +4,10 @@
     gap: 10rem;
 
 }
+body{
+
+    background-color: #1F7A8C;
+}
 .navbar ul li{
     list-style-type: none;
 }
@@ -28,7 +32,7 @@
     height: 30px;
 }
 .navbar{
-    background-color: #4A4E69;
+    background-color: #022B3A;
     height: 40px;
     margin-bottom: 2rem;
     display: flex;
@@ -49,4 +53,11 @@
     width: 200px;
     background-color:#F2E9E4;
     background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+.box:hover{
+ 
+    border: 2px solid #FFFFFF;
+
 }
