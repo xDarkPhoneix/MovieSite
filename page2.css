@@ -3,20 +3,21 @@
   
 }
 .image-container{
-    height: 400px;
-    width: 400px;
+    height: 440px;
+    width: 300px;
     background-size: cover;
+  
     
 }
 body{
     background-color: #1F7A8C;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .image-full{
    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 540px;
     
 }
 .info{
@@ -27,5 +28,7 @@ body{
 }
 .info ul li{
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
 }
